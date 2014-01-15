@@ -18,7 +18,7 @@ If I were to reverse the naming ('lodash' in `paths`, and map 'underscore' to 'l
 * Clone this repo
 * `cd` into the repo directory
 * `npm install -g requirejs`
-* r.js -o build/build.js
+* `r.js -o build/build.js`
 * Running a local HTTP server, load both index.html and index-built.html
 
 The unbuilt version correctly maps `'lodash'` to `'underscore'`, however this configuration is dropped in the r.js build process.
