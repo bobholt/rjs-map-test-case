@@ -9,6 +9,10 @@ In the non-optimized version, the `map` option works, and the application runs.
 
 In the optimized version, `map` is no longer in effect. The r.js build completes, but in loading the application, we see a script error on `lodash.js`.
 
+If I change the hard dependency in the plugin to `underscore`, everything works fine, though this isn't a sustainable fix.
+
+If I were to reverse the naming ('lodash' in `paths`, and map 'underscore' to 'lodash'), the same error occurs.
+
 ## Setup
 
 * Clone this repo
